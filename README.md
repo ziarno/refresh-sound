@@ -12,7 +12,7 @@ Customization
 no docs, just look at the source code, it's very simple:
 
 ```
-RefreshSound = {
+export default RefreshSound = {
   hasPlayedOnce: false,
   playAtStartUp: true,
   //waterdrop sound
@@ -47,8 +47,6 @@ Meteor.startup(function () {
     RefreshSound.playOnce()
   }
 })
-
-export default RefreshSound
 ```
 
 

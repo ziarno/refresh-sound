@@ -1,4 +1,4 @@
-RefreshSound = {
+export default RefreshSound = {
   hasPlayedOnce: false,
   playAtStartUp: true,
   //waterdrop sound
@@ -33,5 +33,3 @@ Meteor.startup(function () {
     RefreshSound.playOnce()
   }
 })
-
-export default RefreshSound
