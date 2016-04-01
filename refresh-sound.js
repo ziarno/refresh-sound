@@ -1,4 +1,4 @@
-export default RefreshSound = {
+RefreshSound = {
   hasPlayedOnce: false,
   playAtStartUp: true,
   //waterdrop sound

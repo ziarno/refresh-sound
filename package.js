@@ -9,6 +9,6 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
   api.use('ecmascript')
-  api.mainModule('refresh-sound.js');
+  api.addFiles('refresh-sound.js');
   api.export('RefreshSound')
 });

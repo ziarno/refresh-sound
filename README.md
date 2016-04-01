@@ -12,7 +12,7 @@ Customization
 no docs, just look at the source code, it's very simple:
 
 ```
-export default RefreshSound = {
+RefreshSound = {
   hasPlayedOnce: false,
   playAtStartUp: true,
   //waterdrop sound
